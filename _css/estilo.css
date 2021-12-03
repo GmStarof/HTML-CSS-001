@@ -4,7 +4,7 @@
 
 
 p{
-    text-align: justify;
+    text-align: justify; /*Alinhamento de texto*/
     text-indent: 50px;
 }
 body{
@@ -12,7 +12,7 @@ background-color: rgb(255, 255, 255);
 color: rgb(0, 0, 0);
 }
 
-
+/*Area de formatação de foto com legenda*/
 
 figure.foto-legenda {
     position: relative;
@@ -38,3 +38,26 @@ figure.foto-legenda figcaption{
 figure.foto-legenda:hover figcaption{
     opacity: 1;
 }
+/*Area de formatação de menu*/
+nav#menu{
+    display: block;
+}
+nav#menu ul{
+
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -18px;
+    left: 800px;
+}
+nav#menu li{
+
+    display: inline-block;
+    background-color: rgb(206, 206, 206);
+    padding: 10px;
+    margin: 2px;
+}
+nav#menu h1{
+    display: none;
+}
+
