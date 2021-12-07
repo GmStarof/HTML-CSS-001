@@ -7,16 +7,12 @@ p{
     text-align: justify; /*Alinhamento de texto*/
     text-indent: 50px;
 }
+
 body{
 background-color: rgb(173, 173, 173);
 color: rgb(0, 0, 0);
 }
-head#cabecalho img#icone{
 
-    position: absolute;
-    left: 800px;
-    top: 50px;
-}
 
 div#interface{
 
@@ -26,7 +22,12 @@ div#interface{
     box-shadow: 0px 0px 10px black;
     padding: 20px; /* padding pode ter um unico valor para declarar todos os lados iguais*/
 }
+head#cabecalho img#icone{
 
+    position: absolute;
+    left: 800px;
+    top: 50px;
+}
 /*Area de formatação de foto com legenda*/
 
 figure.foto-legenda {
