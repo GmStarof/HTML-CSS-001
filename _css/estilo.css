@@ -22,11 +22,11 @@ div#interface{
     box-shadow: 0px 0px 10px black;
     padding: 20px; /* padding pode ter um unico valor para declarar todos os lados iguais*/
 }
-head#cabecalho img#icone{
+head#cabecalho img#icone {
 
     position: absolute;
-    left: 800px;
-    top: 50px;
+    left: 780px;
+    top: 45px;
 }
 /*Area de formatação de foto com legenda*/
 
