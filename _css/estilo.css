@@ -56,6 +56,10 @@ nav#menu li{
     background-color: rgb(206, 206, 206);
     padding: 10px;
     margin: 2px;
+    transition: all;
+}
+nav#menu li :hover{
+    background-color: dimgray;
 }
 nav#menu h1{
     display: none;
